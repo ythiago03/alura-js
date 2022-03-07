@@ -28,6 +28,6 @@ As seguintes ferramentas foram usadas no projeto:
 - <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a>
 - <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a>
 
-# Author
+# Autor
 
 Feito com 💜 por Thiago Henrique ✨<a href="https://www.linkedin.com/in/thiago-fid%C3%AAncio-a24578224/">Veja meu linkedin</a>
