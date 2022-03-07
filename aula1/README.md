@@ -1,7 +1,7 @@
 
 <h1 align="center">Calcuradora de Média</h1>
 
-<p align="center">Este é o projeto da aula 1 da imerção JavaScript da Alura.</p>
+<p align="center">Este é o projeto da aula 1 da imersão JavaScript da Alura.</p>
 
 <img src="https://user-images.githubusercontent.com/92443688/157134584-44ff4677-a8a3-4975-9e3a-8136dda4de4e.jpg">
 
