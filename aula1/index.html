@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="functions.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+        Calculadora de média</h1>
+        <p class="page-subtitle">
+        Descubra qual a sua média de nota de todas as provas!
+        bimestre  </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      </div>
+      <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+
+      <div class="notas">
+        <form>
+            <input type="number" name="nota" id="nota1" placeholder="Digite sua nota do primeiro bimestre">
+            <input type="number" name="nota" id="nota2" placeholder="Digite sua nota do segundo bimestre">
+            <input type="number" name="nota" id="nota3" placeholder="Digite sua nota do terceiro bimestre">
+            <input type="number" name="nota" id="nota4" placeholder="Digite sua nota do quarto bimestre">
+            <input type="button" onclick="calcular()" value="Calcular Média">
+        </form>
+        
+        <div class="resultado"> 
+            <p id="res"></p>
+        </div>
+      </div>
+     
+</body>
+</html>
