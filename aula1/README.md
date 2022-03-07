@@ -6,9 +6,9 @@
 <img src="https://user-images.githubusercontent.com/92443688/157134584-44ff4677-a8a3-4975-9e3a-8136dda4de4e.jpg">
 
 <p align="center">
-    <a href="#about">Sobre</a> •
-    <a href="#technologies">Tecnologias</a> •
-    <a href="#author">Autor</a> 
+    <a href="#sobre">sobre</a> •
+    <a href="#tecnologias">tecnologias</a> •
+    <a href="#autor">autor</a> 
 </p>
 
 <!-- <h4 align="center">🚧  This project is under construction . . .  🚧 </h4> 
