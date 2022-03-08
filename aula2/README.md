@@ -3,7 +3,7 @@
 
 <p align="center">Este é o projeto da aula 2 da imersão JavaScript da Alura.</p>
 
-<img src="https://user-images.githubusercontent.com/92443688/157267618-d3782cb6-62a7-49c8-b7e9-6c28b6d3347b.jpg">
+<img src="https://user-images.githubusercontent.com/92443688/157270213-396838ee-2de1-49fe-aa24-38d3819c6045.jpg">
 
 <p align="center">
     <a href="#sobre">sobre</a> •
