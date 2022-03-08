@@ -27,7 +27,4 @@ function converter(s){
     res.innerHTML = ` A conversão para real é: R$${real} `
 }
 
-   /* var soma = (money * 5.08).toFixed(2)
-    var res = document.getElementById('valorConvertido')
-    res.innerHTML = ` A conversão de R$${real} para dolar é: $${soma}`*/
-
+   
