@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluraflix V1</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+    <header id="#top">
+        <div class="container">
+
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="logo" alt="Logo">
+            <nav class="navlist">
+                <ul>                   
+                    <li><a href="#animes">animes</a></li>
+                    <li><a href="#filmes">filmes</a></li>
+                    <li><a href="#series">séries</a></li>
+                </ul>
+            </nav>
+          
+        </div><!--container-->
+        <a class="top" href="#top"> ⬆</a>
+        <div class="conteudo">
+            <div class="box">
+            <h1>Filmes, séries e muito mais.</h1>
+    <p>Adicione o conteudo aqui!</p>
+
+    
+                <input type="text" name="link" id="link" placeholder="Coloque o link">
+                <input type="submit" value="Animes" onclick="add(1)">
+                <input type="submit" value="Filmes" onclick="add(2)">                
+                <input type="submit" value="Series" onclick="add(3)">
+     
+            </div>
+        </div><!--conteudo-->
+
+
+    </header>   
+
+    <main>
+        
+        <h2 id="animes">Animes</h2>
+
+            <div id="listaAnime">
+             
+            </div>
+  
+
+        <h2 id="filmes">Filmes</h2>
+
+        <div id="listaFilme"></div>
+
+        <h2 id="series">Séries</h2>
+
+        <div id="listaSerie"></div>
+        
+    </main>
+
+    <script src="functions.js"></script>
+
+</body>
+</html>
