@@ -1,4 +1,4 @@
-<h1 align="center">AluraFlix</h1>
+<h1 align="center">AluraFlix v1</h1>
 
 <p align="center">Este é o projeto da aula 4 da imersão JavaScript da Alura.</p>
 
