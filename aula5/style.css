@@ -6,6 +6,9 @@
     font-family: "Roboto Mono", monospace;
 }
 /*=====geral=====*/
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #000000;
     overflow-x:hidden ;
