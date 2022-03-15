@@ -122,10 +122,6 @@ function calcularPontos(jogador){
     exibe(jogadores)
 }
 
-
-
-
-
   function clean(i){
     for (i = 0; i < jogadores.length; i++) {
         jogadores[i].vitorias = 0
@@ -135,91 +131,3 @@ function calcularPontos(jogador){
       }
       exibe(jogadores)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// /* criando os jogadores */
-// var thiago = {foto: 'teste', nome:'thiago', vitorias:0, empates:0, derrotas:0, pontos:0}
-// var jorge = {foto: 'teste', nome:'jorge', vitorias:0, empates:0, derrotas:0, pontos:0}
-
-// var jogadores = [thiago, jorge]
-
-
-
-// /* calculando os pontos dos jogadores */
-
-// function somarPontos(jogador){
-//     var pontos = jogador.vitorias * 3 + jogador.empates
-//     return pontos
-// }
-
-// thiago.pontos = somarPontos(thiago)
-// jorge.pontos = somarPontos(jorge)
-
-// /* colocando os pontos na tela */
-
-// function tabela(jogadores){
-   
-//         var element = ""
-//         for(var i = 0; i < jogadores.length; i++){
-//             element +=    "<tr>"  
-//             element +=     " <td>" + jogadores[i].foto + "</td>"
-//             element +=     " <td>" + jogadores[i].nome + "</td>"
-//             element +=      "<td>" + jogadores[i].vitorias + "</td>"
-//             element +=      "<td>" + jogadores[i].empates + "</td>"
-//             element +=      "<td>" + jogadores[i].derrotas + "</td>"
-//             element +=      "<td>" + jogadores[i].pontos + "</td>"
-//             element +=      "<td><button onClick='adicionarVitoria(" + i +")'>Vitória</button></td>"
-//             element +=      "<td><button onClick='adicionarEmpate(" + i +")'>Empate</button></td>"
-//             element +=      "<td><button onClick='adicionarDerrota(" + i +")'>Derrota</button></td>"
-//             element +=      "</tr>"
-//     }
-//     var table = document.getElementById('tabelaJogadores')
-//     table.innerHTML = element
-
-// }
-// /* chama a função tabela */
-// tabela(jogadores)
-
-
-// /* função para adicionar vitórias */
-// function adicionarVitoria(i){
-//     var jogador = jogadores[i]
-//     jogador.vitorias++
-//     jogador.pontos = somarPontos(jogador)
-//     tabela(jogadores)
-// }
-
-// /* função para adicionar empates */
-// function adicionarEmpate(i){
-//     var jogador = jogadores[i]
-//     jogador.empates++
-//     jogador.pontos = somarPontos(jogador)
-//     tabela(jogadores)
-// }
-
-// /* função para adicionar derrotas */
-// function adicionarDerrota(i){
-//     var jogador = jogadores[i]
-//     jogador.derrotas++
-//     tabela(jogadores)
-// }
-
